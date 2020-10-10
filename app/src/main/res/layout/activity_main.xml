@@ -17,11 +17,8 @@
             android:id="@+id/tabLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:background="?attr/colorPrimary"
-            android:minHeight="?attr/actionBarSize"
-            android:theme="?attr/actionBarTheme"
-            app:tabTextColor="#FDFDFD"
+            app:tabIndicatorColor="@color/colorWhite"
+            android:background="@drawable/tab_design"
             app:title="Tab Sample"
             tools:layout_editor_absoluteX="-16dp"
             tools:layout_editor_absoluteY="200dp">

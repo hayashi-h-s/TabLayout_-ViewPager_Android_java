@@ -18,10 +18,12 @@ public class MainActivity extends AppCompatActivity {
 
         ViewPager viewPager = findViewById(R.id.viewPager);
 
-        // viewPager のスクロールを無効にする
-        // xmlファイルを →にする → <com.haya.tablayout_viewpager_java.CustomViewPager
+
+//         viewPager のスクロールを無効にする
+//         xmlファイルを →にする → <com.haya.tablayout_viewpager_java.CustomViewPager
 //        https://www.366service.com/jp/qa/174c732ea83d1341683fda8557f23059
 //        viewPager.setPagingEnabled(false);
+
         viewPager.setOffscreenPageLimit(3);
         viewPager.setAdapter(adapter);
 
