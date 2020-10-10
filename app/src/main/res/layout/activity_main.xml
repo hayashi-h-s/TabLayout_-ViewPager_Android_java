@@ -15,14 +15,22 @@
         android:theme="?attr/actionBarTheme"
 
         app:titleTextColor="@color/colorWhite"
-        tools:ignore="MissingConstraints" >
+        tools:ignore="MissingConstraints">
 
         <TextView
+            android:id="@+id/toolbar_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Toolbar Title"
             android:layout_gravity="center"
-            android:id="@+id/toolbar_title" />
+            android:text="メモ" />
+
+        <TextView
+            android:id="@+id/toPtAdd"
+            android:layout_width="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="メモ" />
 
     </androidx.appcompat.widget.Toolbar>
 

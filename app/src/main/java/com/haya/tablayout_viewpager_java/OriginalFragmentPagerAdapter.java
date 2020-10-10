@@ -6,7 +6,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 public class OriginalFragmentPagerAdapter extends FragmentPagerAdapter {
 
-    private CharSequence[] tabTitles = {"タブ1", "タブ2", "タブ３"};
+    private CharSequence[] tabTitles = {"AAAA", "タブ2", "タブ３"};
 
     public OriginalFragmentPagerAdapter(FragmentManager fm) {
         super(fm);
@@ -16,12 +16,10 @@ public class OriginalFragmentPagerAdapter extends FragmentPagerAdapter {
 //    https://docs.oracle.com/javase/jp/7/api/java/lang/CharSequence.html
 //CharSequence は char 値の読むことのできる文字シーケンス
 
-
     // getPageTitle()メソッド：タブの総数分のタブのタイトルをタブに反映しています。
     public CharSequence getPageTitle(int position) {
         return tabTitles[position];
     }
-
 
     ///getItem()メソッド：
     // positionに対応したFragmentを反映しています。タブを選択するたびに呼ばれます。
